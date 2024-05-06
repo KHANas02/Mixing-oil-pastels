@@ -1,0 +1,72 @@
+img {
+  max-width: 100%;
+  width: 300px;
+}
+.columns {
+  padding-left: 20%;
+}
+.interface {
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 20%;
+  height: 100vh;
+  overflow-y: scroll;
+  background:#fff;
+}
+.sampleswatch {
+    display: flex;
+    min-height: 10vh; 
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.swatches {
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-family: monaco, monospace;
+}
+
+.colorcol {
+  flex:1;
+  min-width: 11em;
+}
+body {
+  font-family: sans-serif;
+/*   background: color-mix(in oklab, HSL(27, 22%, 68%), HSL(57, 9%, 47%)); */
+/*   background-color: HSL(57, 9%, 47%); */
+  background-color: hsl(16,46%,65%);
+  font-size: 12px;
+}
+input, label {
+  font-family: monaco, monospace;
+}
+.hexval {
+  display: none;
+}
+form {
+  margin: 1em 0;
+}
+.swatchname span {
+  border-bottom: 8px solid transparent;
+}
+.body {
+/*   position: absolute;
+  background: #fffd;
+right: 0px;
+  top: 10px;
+  padding: 20px 40px;
+  transform: translateX(-50%); */
+  
+}
+.match {
+  outline: 3px solid red;
+}
+.hsl {
+  background: #fff5;
+  padding: 2px;
+}
